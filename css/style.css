@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* css3盒子模型 */
+    box-sizing: border-box;
+}
+
+button {
+    /* 当鼠标经过button按钮的时候,鼠标变成小手 */
+    cursor: pointer;
+}
+
+.left_area {
+    position: absolute;
+    position: absolute;
+    left: 0px;
+    right: 350px;
+    height: 100%;
+    overflow: auto;
+}
+
+.right_area {
+    position: absolute;
+    right: 0px;
+    width: 350px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    color: white;
+}
+
+.right_area input {
+    display: block;
+    width: 200px;
+    height: 30px;
+    padding: 0 10px;
+    background-color: rgba(255, 255, 255);
+    color: black;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.right_area button {
+    display: block;
+    width: 100px;
+    height: 30px;
+    margin: 0 auto;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+}
+
+.right_area button:hover {
+    color: black;
+    background-color: white;
+}
+
+.right_area button:active {
+    background-color: rgba(255, 255, 255, .9);
+}
+
+.right_area h1 {
+    text-align: center;
+    font-size: 30px;
+    padding: 80px 0px;
+    padding-bottom: 40px;
+}
+
+.right_area div {
+    padding: 50px 20px;
+}
+
+.right_area h3 {
+    text-align: center;
+}
+
+.right_area input {
+    margin: 20px auto;
+}
+
+.left_area h1 {
+    margin-top: 250px;
+    padding-top: 50px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.left_area h2 {
+    padding-top: 50px;
+    font-size: 50px;
+    text-align: center;
+}
+
+canvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    height: 800px;
+    /* background-color: red; */
+}
+
+#canvas_area {
+    position: relative;
+    width: 1010px;
+    height: 810px;
+    margin: 50px auto;
+    border: 3px solid black;
+    overflow: auto;
+}

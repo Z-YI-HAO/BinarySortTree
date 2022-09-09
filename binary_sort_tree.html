@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>二叉排序树可视化</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <!-- 左侧画布部分 -->
+    <section class="left_area" id="left_area">
+        <!-- <canvas></canvas> -->
+        <h1>二叉排序树可视化</h1>
+        <h2>Binary Sort Tree</h2>
+    </section>
+
+    <!-- 右侧控制台部分 -->
+    <section class="right_area">
+        <h1>二叉排序树可视化</h1>
+        <!-- 插入节点部分 -->
+        <div class="insert_part">
+            <h3>插入节点</h3>
+            <input type="number" placeholder="请输入要插入的节点值" id="input_value">
+            <button id="insert_btn">插入</button>
+        </div>
+        <!-- 删除节点部分 -->
+        <div class="remove_part">
+            <h3>删除节点</h3>
+            <input type="number" placeholder="请输入要删除的节点值" id="remove_value">
+            <button id="remove_btn">删除</button>
+        </div>
+    </section>
+
+    <script src="js/drawTree.js"></script>
+    <script src="js/binary_sort_tree.js"></script>
+    <script src="js/control.js"></script>
+
+</body>
+
+</html>
